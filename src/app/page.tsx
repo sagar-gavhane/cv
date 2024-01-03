@@ -20,8 +20,8 @@ export default function Page() {
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <h1 className="text-4xl font-bold">{RESUME_DATA.name}</h1>
+            <p className="max-w-lg text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -67,7 +67,11 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <social.icon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -132,7 +136,13 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {Array.isArray(work.description)
+                    ? work.description.map((desc, idx) => (
+                        <li key={idx} className="my-1">
+                          {desc}
+                        </li>
+                      ))
+                    : work.description}
                 </CardContent>
               </Card>
             );
