@@ -18,11 +18,11 @@ export const RESUME_DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://maps.app.goo.gl/aZv43xFM2HF3FUki9",
   about:
-    "Principle Engineer with 7+ years of successful software delivery experience. Expert in Node.js, React.js, Spring Boot, and Golang. Specializing in building scalable Microservices",
+    "Principle Engineer with 7+ years of successful software delivery experience. Expert in Node.js, Spring Boot, and Golang. Specializing in building scalable Microservices",
   summary:
     "Demonstrated ability to drive revenue growth, lead and mentor teams, and enhance software quality. Excited to leverage my expertise for innovation and excellence in next project.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33308798?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://sagar-web.vercel.app/",
   contact: {
     email: "sgavhane70@gmail.com",
     tel: "+918624040905",
@@ -55,10 +55,10 @@ export const RESUME_DATA = {
   work: [
     {
       company: "DynPro",
-      link: "https://www.peppercontent.io/",
-      badges: ["Remote"],
+      link: "https://www.dynpro.com/",
+      badges: ["Pune (Remote)"],
       title: "Principle Engineer",
-      logo: ParabolLogo,
+      // logo: ParabolLogo,
       start: "January 2024",
       end: "Present",
       description: [
@@ -71,9 +71,9 @@ export const RESUME_DATA = {
     {
       company: "Pepper Content",
       link: "https://www.peppercontent.io/",
-      badges: ["Remote"],
+      badges: ["Pune (Remote)"],
       title: "Senior Software Engineer → Tech Lead",
-      logo: ParabolLogo,
+      // logo: ParabolLogo,
       start: "January 2021",
       end: "June 2023",
       description: [
@@ -84,10 +84,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Fabric",
-      link: "https://clevertech.biz",
+      link: "https://fabric.inc/",
       badges: ["Pune", "Bangalore"],
       title: "Product Engineer",
-      logo: ClevertechLogo,
+      // logo: ClevertechLogo,
       start: "July 2019",
       end: "January 2021",
       description: [
@@ -97,10 +97,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Param Business Solution",
-      link: "https://bsgroup.eu/",
+      link: "https://parambs.info/",
       badges: ["Pune"],
       title: "Senior Software Engineer",
-      logo: JojoMobileLogo,
+      // logo: JojoMobileLogo,
       start: "August 2018",
       end: "July 2019",
       description: [
@@ -110,10 +110,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Ampkona",
-      link: "https://www.nokia.com",
+      link: "#",
       badges: ["Pune"],
       title: "Full Stack Developer",
-      logo: NSNLogo,
+      // logo: NSNLogo,
       start: "March 2017",
       end: "August 2018",
       description:
@@ -129,14 +129,46 @@ export const RESUME_DATA = {
     "MongoDB",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Kafka",
+    "React.js / Next.js / Remix",
+    "Apache Kafka",
     "Redis",
     "RabbitMQ",
     "Microservices",
     "GraphQL",
+    "Express.js",
+    "Gorilla Mux",
+    "PostgreSQL",
+    "DynamoDB",
+    "RabbitMQ",
+    "Docker",
+    "Kubernetes",
+    "Chai",
+    "Mocha",
+    "Jest",
+    "Junit",
+    "Mockito",
+    "Jenkins",
+    "Prometheus",
+    "ELK Stack",
   ],
   projects: [
+    {
+      title: "HR Tech",
+      techStack: [
+        "Principle Engineer",
+        "Spring Boot",
+        "Golang",
+        "Kafka",
+        "Redis",
+        "Microservices",
+        "GCP",
+        "BigQuery",
+        "MySQL",
+        "React.js",
+      ],
+      description:
+        "I've signed an NDA agreement with the company, so I can't share details of the product.",
+    },
     {
       title: "Pepper",
       techStack: [
@@ -167,7 +199,8 @@ export const RESUME_DATA = {
         "Microservices",
         "Next.js",
         "MongoDB",
-        "Serverless Framework",
+        "Spring Boot",
+        "Spring Cloud",
       ],
       description:
         "XM provides a single place to create, manage, and enrich your website content.",
@@ -228,69 +261,136 @@ export const RESUME_DATA = {
         "Personalized, unbiased wealth management and investment advisory.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "moneyspring.in",
+        href: "https://www.moneyspring.in/",
       },
     },
     {
       title: "ERP Cloud",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      techStack: ["TypeScript", "Next.js"],
+      description:
+        "ERP Cloud app that streamlines business processes, enhances collaboration, and provides real-time insights for efficient and data-driven decision-making.",
       logo: YearProgressLogo,
       link: {
         label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        href: "#",
       },
     },
     {
-      title: "Veerbhadra",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Veerbhadra Construction",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "Veerbhadra Construction is go-to source for premium raw materials, catering specifically to construction companies. Comprehensive range includes high-quality sands, cements, pipes, bricks, and much more.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "#",
       },
     },
     {
-      title: "Proptop",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Walhekar Properties",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
       description:
         "Revolutionizing the real estate industry with a cutting-edge cloud application, seamlessly enhancing efficiency and transforming the way property professionals manage, collaborate, and succeed.",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "walhekar.in",
+        href: "https://walhekar.in/",
       },
     },
     {
-      title: "PoultryPro",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "RKChicken",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
       description:
         "Premier B2B destination for top-quality chicken products, connecting retailers with a diverse range of fresh and sustainable poultry offerings.",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "rkchicken.com",
+        href: "https://rkchicken.com/",
+      },
+    },
+  ],
+  blogs: [
+    {
+      title: "Reactive Programming in JavaScript with RxJS.",
+      description:
+        "This article is an introduction to RxJS, a JavaScript library for reactive programming with asynchronous data streams1. It explains the basic concepts of observables, observers, operators, and subjects, and compares them with promises. It also provides some examples of using RxJS for handling events, animations, and AJAX operations.",
+      tags: ["JavaScript", "Programming", "WebDev", "RxJS"],
+      link: {
+        label: "Reactive Programming in JavaScript with RxJS.",
+        href: "https://dev.to/sagar/reactive-programming-in-javascript-with-rxjs-4jom",
+      },
+    },
+    {
+      title: "How to Capture Screenshots with Puppeteer",
+      description:
+        "This article is about how to capture screenshots of web pages using Puppeteer, a Node.js library that controls headless Chrome or Chromium1. The author provides an overview of Puppeteer, installation instructions, and code examples for capturing single and multiple screenshots2. The article also highlights the benefits and features of Puppeteer for web scraping and testing tasks.",
+      tags: ["JavaScript", "Node", "WebDev", "Puppeteer"],
+      link: {
+        label: "How to Capture Screenshots with Puppeteer",
+        href: "https://dev.to/sagar/how-to-capture-screenshots-with-puppeteer-3mb2",
+      },
+    },
+    {
+      title: "How to build a blog with Next.js",
+      description:
+        "This article is about how to build a blog website from scratch using Next.js, a React framework that supports static site generation1. The author explains the steps and code involved in creating and rendering markdown files as blog posts. The author also compares Next.js with Gatsby, another popular static site generator.",
+      tags: ["Beginner", "JavaScript", "React", "Tutorial"],
+      link: {
+        label: "How to build a blog with Next.js",
+        href: "https://dev.to/sagar/building-a-blog-with-next-js-253",
+      },
+    },
+    {
+      title: "React Performance Optimization",
+      description:
+        "This article is about how to avoid unnecessary re-renders of React components by using techniques such as passing limited props, memoizing objects and functions, and using React.memo with custom comparison functions. The article provides code examples and screenshots to illustrate the concepts and performance benefits. The article also warns about the potential drawbacks of memoizing large components and advises to use ReactDevTools profiler to identify bottlenecks.",
+      tags: ["JavaScript", "React", "Performance", "Optimization"],
+      link: {
+        label: "React Performance Optimization",
+        href: "https://dev.to/sagar/things-should-be-considered-while-writing-your-react-components-3n4a",
+      },
+    },
+    {
+      title: "Build a RESTful API with the Serverless Framework",
+      description:
+        "This article is about how to create serverless RESTful API services using the Serverless Framework and AWS Lambda.",
+      tags: ["Serverless", "Node", "JavaScript", "Beginner"],
+      link: {
+        label: "Build a RESTful API with the Serverless Framework",
+        href: "https://dev.to/sagar/build-a-restful-api-with-the-serverless-framework-ene",
+      },
+    },
+    {
+      title: "Code splitting in React",
+      description:
+        "This article is about how to implement code splitting in React apps using dynamic import () and Webpack1. It explains the benefits of code splitting, such as reducing bundle size and improving performance. It also shows how to use React Loadable library to simplify code splitting.",
+      tags: ["React.js", "JavaScript", "Code Splitting", "Optimization"],
+      link: {
+        label: "Code splitting in React",
+        href: "https://dev.to/sagar/increase-user-interactions-by-implementing-code-splitting-in-react-5a1e",
+      },
+    },
+    {
+      title:
+        "Implement a serverless CI/CD pipeline with AWS (Amazon Web Services).",
+      description:
+        "This article is about how to implement a serverless CI/CD pipeline with AWS services such as CodeBuild, CodePipeline, S3, and Serverless Framework1. The author explains the steps to create a weight watcher application that asks for weight every day and stores it in a database2. The article is the first part of a series and covers the continuous integration aspect of the pipeline.",
+      tags: ["Serverless", "AWS", "DevOps", "Node"],
+      link: {
+        label:
+          "Implement a serverless CI/CD pipeline with AWS (Amazon Web Services).",
+        href: "https://dev.to/sagar/implement-a-serverless-cicd-pipeline-with-aws-amazon-web-services-438f",
+      },
+    },
+    {
+      title: "Introduction to AWS Lambda",
+      description:
+        "This article is about the advantages and limitations of AWS Lambda, a service that allows users to run functions on the cloud without managing servers1. The article covers topics such as cost, scalability, security, performance, and vendor lock-in. The article also invites readers to share their thoughts and experiences with AWS Lambda.",
+      tags: ["Aws Lambda", "AWS", "DevOps", "Serverless"],
+      link: {
+        label: "Introduction to AWS Lambda",
+        href: "https://dev.to/sagar/brief-explanation-of-aws-lambda-1hgn",
       },
     },
   ],

@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { BlogCard } from "@/components/blog-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -110,7 +111,12 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
+                      <a
+                        className="hover:underline"
+                        href={work.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {work.company}
                       </a>
 
@@ -188,6 +194,23 @@ export default function Page() {
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
+                />
+              );
+            })}
+          </div>
+        </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Blogs</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2">
+            {RESUME_DATA.blogs.map((blog) => {
+              return (
+                <BlogCard
+                  key={blog.title}
+                  title={blog.title}
+                  tags={blog.tags}
+                  description={blog.description}
+                  link={"link" in blog ? blog.link.href : undefined}
                 />
               );
             })}
