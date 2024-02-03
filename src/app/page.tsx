@@ -202,7 +202,7 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Blogs</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-1 print:gap-2">
             {RESUME_DATA.blogs.map((blog) => {
               return (
                 <BlogCard
