@@ -60,23 +60,49 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="h-8 w-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+              {RESUME_DATA.contact.social.map((social) => {
+                if (social.name === "Resume") {
+                  return (
+                    <Button
+                      key={social.name}
+                      className="h-8"
+                      variant="outline"
+                      size="sm"
+                      asChild
+                    >
+                      <a
+                        className="flex gap-1"
+                        href={social.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={social.name}
+                      >
+                        <social.icon className="h-4 w-4" />
+                        {social.name}
+                      </a>
+                    </Button>
+                  );
+                }
+
+                return (
+                  <Button
+                    key={social.name}
+                    className="h-8 w-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
                   >
-                    <social.icon className="h-4 w-4" />
-                  </a>
-                </Button>
-              ))}
+                    <a
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={social.name}
+                    >
+                      <social.icon className="h-4 w-4" />
+                    </a>
+                  </Button>
+                );
+              })}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (

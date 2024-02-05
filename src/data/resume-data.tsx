@@ -11,6 +11,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { ExternalLink } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Sagar Gavhane",
@@ -41,6 +42,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://twitter.com/_sagar_gavhane",
         icon: XIcon,
+      },
+      {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1AXCuMn8cbHyDFMTa1a-2-bl2shMC6mr2/view?usp=drive_link",
+        icon: ExternalLink,
       },
     ],
   },
